@@ -1,0 +1,170 @@
+Language: Cpp
+
+AccessModifierOffset: -4
+
+# Parameter: Align / DontAligh / AlwaysBreak
+AlignAfterOpenBracket: Align
+
+AlignConsecutiveAssignments: true
+
+AlignConsecutiveDeclarations: false
+
+AlignEscapedNewlines: Right
+
+AlignOperands: true
+
+AlignTrailingComments: true
+
+AllowAllParametersOfDeclarationOnNextLine: false
+
+AllowShortBlocksOnASingleLine: true
+
+AllowShortCaseLabelsOnASingleLine: true
+
+AllowShortFunctionsOnASingleLine: All
+
+AllowShortIfStatementsOnASingleLine: true
+
+AllowShortLoopsOnASingleLine: true
+
+# Parameter: None / All / TopLevel / AllDefinitions / TopLevelDefinitions
+AlwaysBreakAfterReturnType: None
+
+AlwaysBreakBeforeMultilineStrings: false
+
+AlwaysBreakTemplateDeclarations: false
+
+BinPackArguments: true
+
+BinPackParameters: true
+
+# Parameter: 
+# 	Attach(Always put braces around contexts)
+# 	Linux(Similar to Attach but function, namespace and class definition)
+# 	Allman(Always break before brace)
+# 	GNU(Always break before brace, add additional indents for control statements' brace)
+# 	WebKit(Break before functions)
+# 	Custom
+BreakBeforeBraces: Custom
+
+# Only valid while BreakBeforeBraces: Custom
+BraceWrapping:
+    AfterClass: true
+
+    AfterControlStatement: true
+
+    AfterEnum: true
+
+    AfterFunction: true
+
+    AfterNamespace: true
+
+    AfterStruct: true
+
+    AfterUnion: false
+
+    AfterExternBlock: false
+
+    BeforeCatch: false
+
+    BeforeElse: false
+
+    IndentBraces: false
+
+    SplitEmptyFunction: false
+
+    SplitEmptyRecord: false
+
+    SplitEmptyNamespace: false
+
+# Parameter: None(Break after operators) / NonAssignment(Break before non-assign operators) / All(Break before operators)
+BreakBeforeBinaryOperators: NonAssignment
+
+BreakBeforeTernaryOperators: false
+
+BreakConstructorInitializers: BeforeColon
+
+#BreakInheritanceList: AfterColon
+
+BreakStringLiterals: false
+
+# Limitation for characters per line, 0 means no limitation
+ColumnLimit: 0
+
+CompactNamespaces: true
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+
+ConstructorInitializerIndentWidth: 4
+
+ContinuationIndentWidth: 4
+
+Cpp11BracedListStyle: true
+
+DerivePointerAlignment: false
+
+FixNamespaceComments: true
+
+IndentCaseLabels: false
+
+IndentPPDirectives: None
+
+IndentWrappedFunctionNames: false
+
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+MaxEmptyLinesToKeep: 1
+
+# Parameter: None / Inner / All
+NamespaceIndentation: None
+
+# Parameter: Left / Right / Middle
+PointerAlignment: Right
+
+ReflowComments: true
+
+SortIncludes: false
+
+SortUsingDeclarations: false
+
+SpaceAfterCStyleCast: false
+
+SpaceAfterTemplateKeyword: true
+
+SpaceBeforeAssignmentOperators: true
+
+SpaceBeforeCpp11BracedList: true
+
+SpaceBeforeCtorInitializerColon: true
+
+SpaceBeforeInheritanceColon: true
+
+# Parameter: Never / ControlStatements / Always
+SpaceBeforeParens: ControlStatements
+
+SpaceBeforeRangeBasedForLoopColon: true
+
+SpaceInEmptyParentheses: false
+
+# Only suit for //
+SpacesBeforeTrailingComments: 1
+
+SpacesInAngles: false
+
+SpacesInCStyleCastParentheses: false
+
+SpacesInContainerLiterals: true
+
+SpacesInParentheses: false
+
+SpacesInSquareBrackets: false
+
+# Cpp standard
+Standard: Auto
+
+IndentWidth: 4
+
+TabWidth: 4
+
+# Parameter: Never / ForIndentation / ForContinuationAndIndentation / Always
+UseTab: Never
