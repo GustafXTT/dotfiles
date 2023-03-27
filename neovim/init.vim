@@ -45,6 +45,7 @@ if exists('g:vscode')
 	nnoremap <LEADER>w <Cmd>call VSCodeNotify('workbench.action.files.save')<CR>
 	nnoremap <LEADER>q <Cmd>call VSCodeNotify('workbench.action.closeActiveEditor')<CR>
 	nnoremap <LEADER>r <Cmd>call VSCodeNotify('editor.action.rename')<CR>
+	nnoremap <LEADER>f <Cmd>call VSCodeNotify('editor.action.quickFix')<CR>
 else
 	noremap <LEADER>w :w<CR>
 	noremap <LEADER>q :q<CR>
