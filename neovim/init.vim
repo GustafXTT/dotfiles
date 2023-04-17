@@ -1,7 +1,6 @@
 let mapleader = " "
 syntax on
 syntax enable
-
 set nocompatible
 filetype on
 filetype indent on
@@ -29,13 +28,17 @@ set ignorecase
 set smartcase
 set ai!
 
-noremap <LEADER><CR> :nohlsearch<CR>
-
 if has('nvim')
+	" load plugins
 	lua require('plugins')
+	" load leap.nvim mapping
 	lua require('leap').add_default_mappings()
+	" set cursor color for an unsolved bug of leap.nvim
 	lua vim.api.nvim_set_hl(0, 'Cursor', { reverse = true })
 endif
+
+" remapping part:
+noremap <LEADER><CR> :nohlsearch<CR>
 
 if exists('g:vscode')
 	nnoremap gd <Cmd>call VSCodeNotify('editor.action.revealDefinition')<CR>
