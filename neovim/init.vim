@@ -34,6 +34,7 @@ noremap <LEADER><CR> :nohlsearch<CR>
 if has('nvim')
 	lua require('plugins')
 	lua require('leap').add_default_mappings()
+	lua vim.api.nvim_set_hl(0, 'Cursor', { reverse = true })
 endif
 
 if exists('g:vscode')
