@@ -55,3 +55,5 @@ else
 	noremap <LEADER>q :q<CR>
 endif
 
+vnoremap <LEADER>y "+y
+noremap <LEADER>p "*p
